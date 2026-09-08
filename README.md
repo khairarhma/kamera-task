@@ -41,19 +41,7 @@ kamera-task/
 └── README.md
 ```
 
-## Cara Menjalankan
 
-### Java
-```bash
-cd java
-javac Camera.java Main.java
-java Main
-```
-
-### PHP
-```bash
-cd php
-php main.php
 ```
 
 Kedua program utama melakukan hal yang sama:
