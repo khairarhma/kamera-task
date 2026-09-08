@@ -26,19 +26,7 @@ Karena field-field tersebut punya invarian, class **tidak menyediakan setter men
 (`takePhoto()`, `deletePhoto()`, `chargeBattery()`, dst) yang akan **menolak** (melempar
 exception) bila hasil perubahan melanggar invarian.
 
-## Struktur Folder
 
-```
-kamera-task/
-├── design/
-│   └── DESIGN.md          # rancangan class (field, method, invarian)
-├── java/
-│   ├── Camera.java        # implementasi class
-│   └── Main.java          # program utama
-├── php/
-│   ├── Camera.php         # implementasi class
-│   └── main.php           # program utama
-└── README.md
 ```
 
 ## Cara Menjalankan
