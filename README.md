@@ -29,21 +29,6 @@ exception) bila hasil perubahan melanggar invarian.
 
 ```
 
-## Cara Menjalankan
-
-### Java
-```bash
-cd java
-javac Camera.java Main.java
-java Main
-```
-
-### PHP
-```bash
-cd php
-php main.php
-```
-
 Kedua program utama melakukan hal yang sama:
 1. Membuat objek `Camera` yang valid (baterai 100%, storage 0/1000 MB) dan menampilkannya.
 2. Melakukan satu perubahan yang **sah** (`takePhoto(50)`).
@@ -53,4 +38,9 @@ Kedua program utama melakukan hal yang sama:
    - `takePhoto(2000)` → ditolak karena akan membuat `storageUsedMB` melebihi
      `storageCapacityMB`.
 
+## Deklarasi Penggunaan AI
 
+Sebagian besar rancangan class, implementasi kode (Java & PHP), dan penulisan README ini
+dibuat dengan bantuan Claude (Anthropic) sebagai asisten AI, berdasarkan arahan domain
+("Kamera") dan ketentuan tugas yang diberikan. Kode telah ditinjau ulang secara manual
+untuk memastikan logika invarian dan penolakan operasi tidak sah berjalan benar.
