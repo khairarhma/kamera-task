@@ -65,9 +65,4 @@ Kedua program utama melakukan hal yang sama:
    - `takePhoto(2000)` → ditolak karena akan membuat `storageUsedMB` melebihi
      `storageCapacityMB`.
 
-## Deklarasi Penggunaan AI
 
-Sebagian besar rancangan class, implementasi kode (Java & PHP), dan penulisan README ini
-dibuat dengan bantuan Claude (Anthropic) sebagai asisten AI, berdasarkan arahan domain
-("Kamera") dan ketentuan tugas yang diberikan. Kode telah ditinjau ulang secara manual
-untuk memastikan logika invarian dan penolakan operasi tidak sah berjalan benar.
